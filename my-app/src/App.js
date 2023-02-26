@@ -19,7 +19,7 @@ function App() {
     console.log(page)
     const [movies,setMovies] = useState();
     useEffect(()=>{
-        fetch(`https://api.themoviedb.org/3/movie/popular?api_key=a2c8c59db02aa468f8e8abcb8b5b8a7b&page=${page}&include_adult=false`)
+        fetch(`https://api.themoviedb.org/3/movie/popular?api_key=a2c8c59db02aa468f8e8abcb8b5b8a7b&page=${page}&include_adult=false&include`)
         .then(Response=>Response.json())
         .then(Response=>setMovies(Response.results
             ))
@@ -29,7 +29,8 @@ function App() {
     <div className='movie-conteiner'>
      
           <div className='grid'>
-       
+            {movies.map((e,i)=>
+              <MovieChild key={i} {...e} />)}
           </div>
           <div className='buttons'>
            <button  onClick={prevPage}>Prev</button>
