@@ -33,8 +33,8 @@ function App() {
               <MovieChild key={i} {...e} />)}
           </div>
           <div className='buttons'>
-           <button  onClick={prevPage}>Prev</button>
-           <button  onClick={nextPage}>Next</button>
+           <button className='bottomButtons' onClick={prevPage}>Prev</button>
+           <button className='bottomButtons' onClick={nextPage}>Next</button>
           </div>
     </div>
   )

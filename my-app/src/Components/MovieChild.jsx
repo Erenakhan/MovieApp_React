@@ -9,6 +9,7 @@ function MovieChild({title,poster_path,vote_average,overview,release_date}) {
     const handleClose=()=>setShow(false)
   
   return (
+    <>
   <div className="card ">
         <div className="card-body">
           <img className="card-img-top" src={img+poster_path} />
@@ -41,6 +42,7 @@ function MovieChild({title,poster_path,vote_average,overview,release_date}) {
           </div>
           </div>
         </div>
+        </>
   )
 }
 

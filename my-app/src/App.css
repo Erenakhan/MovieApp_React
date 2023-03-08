@@ -67,3 +67,11 @@ img {
   padding: 30px;
 
 }
+.bottomButtons{
+  background-color: black;
+  color: white;
+  padding: 8px;
+  font-size: larger;
+  margin: 10px;
+  border-radius: 10px;
+}
