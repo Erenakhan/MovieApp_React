@@ -75,3 +75,50 @@ img {
   margin: 10px;
   border-radius: 10px;
 }
+.bottomButtonsE{
+  background-color: orangered;
+  color: white;
+  padding: 8px;
+  font-size: x-large;
+  margin: 10px;
+  border-radius: 10px;
+}
+header{
+
+  height: 80px;
+  display: flex;
+
+}
+input{
+  width: 300px;
+  height: 40px;
+  margin-left: 28%;
+ margin-top: 15px;
+ border-radius: 20px;
+ font-size: larger;
+}
+h1{
+  width: fit-content;
+  margin-left: 50px;
+}
+.icon{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+}
+.header-div{
+  display: flex;
+  width: fit-content;
+}
+
+.A{
+  background-color: orangered;
+  margin: 15px;
+  color: white;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
